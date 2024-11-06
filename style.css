@@ -1,0 +1,128 @@
+/* Imagen de Fondo */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.nationalgeographicla.com/files/styles/image_3200/public/acaifotoemprapa.jpeg?w=1600&h=1067'); /* Ruta actualizada de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header {
+    background: rgba(94, 54, 140, 0.9); /* Morado oscuro con transparencia */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #4caf50; /* Verde */
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Selección de tabla */
+h2 {
+    color: #5e368c; /* Morado oscuro */
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+/* Lista desplegable */
+form label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4caf50; /* Verde */
+    margin-bottom: 10px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #5e368c; /* Morado oscuro */
+    background-color: #f4f0fa;
+    border: 2px solid #5e368c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: #4caf50; /* Verde */
+}
+
+/* Botón */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4caf50; /* Verde */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #45a045; /* Verde más oscuro */
+}
+
+/* Mensaje */
+.message {
+    padding: 15px;
+    background-color: #d4f7df; /* Fondo verde claro */
+    border: 1px solid #4caf50; /* Borde verde */
+    border-radius: 5px;
+    color: #4caf50; /* Texto verde */
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.entity-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.entity-table td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.entity-table h3 {
+    margin: 5px 0;
+}
+
+.entity-table button {
+    margin: 5px 0;
+    width: 100px;
+}
+
+.container {
+    overflow-x: auto;
+    padding: 20px;
+}
